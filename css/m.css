@@ -1,0 +1,63 @@
+body,html{height:100%;padding:0px;margin:0px;overflow:hidden;background-image:url(../img/fondo.png);background-repeat:repeat-xy;}
+.a{width:100%;height:90px;overflow:hidden;position:fixed;top:0px}
+.b{width:100%;height:100%;overflow:hidden;}
+.c{position:fixed;top:0px;bottom:0px;left:0px;right:0px;display:none;z-index:1}
+.a,.b,.c{}
+.d{background-image:url("../img/luna.png");
+    background-size: 100% 100%;
+    height:10%;
+    width:100%;
+    position:fixed;
+    bottom:0px;}
+
+#nave{text-align:center;position:fixed;top:10%;width:100%;height:20%;z-index:1;}
+#nave img{height:100%;}
+#bMotor {height:100%;padding:0px;margin:0px;overflow:hidden;background-image:url(../img/propulsor.png);background-repeat:repeat-xy;}
+#cpanel{color:white;}
+#hidem,#showm{float:right;color:white;}
+#menu{position:absolute;left:50%;top:5%;}
+
+p{top:5%;height:8%;position:relative;color:white;margin:5%;}
+b{color:orange;}
+/*Menu desplegable*/
+
+.dropbtn {
+   background-color: orange;
+    color: white;
+    padding: 18px;
+    font-size: 16px;
+    border: none;
+    /*cursor: pointer;*/
+}
+
+.dropdown {
+    position: relative;
+    display: block-inline;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: orange;
+    min-width: 25px;
+	font-size:12px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+	padding:10% 10%;
+	width:80px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: pink}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: yellow;

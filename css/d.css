@@ -1,0 +1,91 @@
+body,html{height:100%;padding:0px;margin:0px;overflow:hidden;	background-image:url(../img/fondo.png);
+	background-repeat:repeat-xy;}
+
+	/*movil*/
+.a{/*background-color:#00bcd4;*/}
+.b{/*background-color:red;*/}
+.c{/*background-color:#cddc39;*/display:block !important}
+.a,.b,.c{
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+	float:left;
+
+}
+.d{	
+	background-image:url("../img/luna.png");
+	background-size: 100% 100%;
+	height:10%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	}
+#nave{
+	text-align:center;
+	position:fixed;
+	top:10%;
+	width:100%;
+	height:20%;
+	z-index:1;
+	}
+
+#nave img{height:100%;}
+#cpanel{
+	width: auto; height: auto; 
+	max-width: 170px;
+	background-color: purple;
+	margin: 10px;
+	width: 100%;
+	border-style: outset;
+	border-color: gray;
+	font-size: 120%;
+	padding: 2px;
+	margin-bottom: 15px;
+	color: black;
+}
+#hidem,#showm{display:none;color:white;}
+#menu{position:absolute;right:5%;top:5%;}
+p{top:10%;height:2%;position:relative;color:white;margin:2%;}
+b{color:orange;}
+/*Menu desplegable*/
+
+.dropbtn {
+    background-color: orange;
+    color: white;
+    padding: 22px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    
+    position: absolute;
+    background-color: red;
+    min-width: 25px;
+	font-size:18px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+	padding:10% 10%;
+	width:80px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: pink}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: yellow;
