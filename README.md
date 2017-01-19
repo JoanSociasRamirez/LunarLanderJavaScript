@@ -11,7 +11,7 @@ Howtoplay.html: Página donde se encuentra la información para jugar y el objet
 
 about.html: Página dónde se encuentra información técnica.
 
-js.js :Javascript donde está el funcionamiento de la página y el movimiento de la nave. Este js contiene muchos cambios de la nueva versión, como:
+js.js :Javascript donde está el funcionamiento de la página y el movimiento de la nave. Este js contiene muchos cambios de la nueva versión, por este orden:
 
 -> Código para la caída automática de la nave.
 -> Código para activar y desactivar el motor de la nave pulsando cualquier botón.
